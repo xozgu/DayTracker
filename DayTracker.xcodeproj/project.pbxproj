@@ -11,6 +11,9 @@
 		2D9CD67327FD755E00476EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD67227FD755E00476EDA /* ContentView.swift */; };
 		2D9CD67527FD755F00476EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9CD67427FD755F00476EDA /* Assets.xcassets */; };
 		2D9CD67827FD755F00476EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9CD67727FD755F00476EDA /* Preview Assets.xcassets */; };
+		2D9CD67F27FD75D600476EDA /* OneDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD67E27FD75D600476EDA /* OneDay.swift */; };
+		2D9CD68127FD79F600476EDA /* OneDayPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD68027FD79F600476EDA /* OneDayPlans.swift */; };
+		2D9CD68327FD7CE700476EDA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD68227FD7CE700476EDA /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2D9CD67227FD755E00476EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D9CD67427FD755F00476EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9CD67727FD755F00476EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D9CD67E27FD75D600476EDA /* OneDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDay.swift; sourceTree = "<group>"; };
+		2D9CD68027FD79F600476EDA /* OneDayPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDayPlans.swift; sourceTree = "<group>"; };
+		2D9CD68227FD7CE700476EDA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				2D9CD67027FD755E00476EDA /* DayTrackerApp.swift */,
 				2D9CD67227FD755E00476EDA /* ContentView.swift */,
+				2D9CD68227FD7CE700476EDA /* AddView.swift */,
+				2D9CD67E27FD75D600476EDA /* OneDay.swift */,
+				2D9CD68027FD79F600476EDA /* OneDayPlans.swift */,
 				2D9CD67427FD755F00476EDA /* Assets.xcassets */,
 				2D9CD67627FD755F00476EDA /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				2D9CD67327FD755E00476EDA /* ContentView.swift in Sources */,
 				2D9CD67127FD755E00476EDA /* DayTrackerApp.swift in Sources */,
+				2D9CD68327FD7CE700476EDA /* AddView.swift in Sources */,
+				2D9CD68127FD79F600476EDA /* OneDayPlans.swift in Sources */,
+				2D9CD67F27FD75D600476EDA /* OneDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
